@@ -1,0 +1,29 @@
+@import '../abstract/variables';
+
+@font-face {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: bold;
+  src: local('Montserrat ExtraBold'), url('Montserrat-ExtraBold.woff') format('woff');
+}
+
+.section-title {
+  margin: 0px;
+  margin-bottom: 4.5rem;
+  font-size: $big-font-size;
+  font-weight: bold;
+  text-align: center;
+  text-transform: uppercase;
+
+}
+
+.dark-blue-text {
+  color: $dark-blue-text !important;
+}
+
+.text-color-main {
+
+  &:hover {
+    transform: translateX(2px);
+  }
+}
